@@ -1,0 +1,11 @@
+.row{
+  margin: auto;
+}
+
+
+body{
+  background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/redbull.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
