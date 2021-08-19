@@ -4,8 +4,6 @@ const getData = async (season, round) => {
     return response.data.MRData.StandingsTable.StandingsLists[0].DriverStandings
 }
 
-
-
 const create_table = (position, first_name, last_name, nationality, sponsor_name, wins, points, wiki) =>{
     const html = `<tr><td>${position}</td><td>${first_name} ${last_name}</td><td>${nationality}</td><td>${sponsor_name}</td><td>${wins}</td><td>${points}</td><td><a href="${wiki}">More Info</a></td></tr>`
     document.getElementById('racerbody').insertAdjacentHTML('beforeend', html)
