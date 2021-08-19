@@ -33,3 +33,12 @@ const load_data = async () => {
 const clear_table = () => {
     document.getElementById('racerbody').innerHTML = ''
 }
+
+const nextOne = async () => {
+    clear_table();
+    var T = document.getElementById("hiddenTable");
+    var F = document.getElementById("form");
+    T.style.display = "none"; 
+    F.style.display = "block"
+
+}

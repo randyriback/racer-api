@@ -197,7 +197,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 #viddiv{
   margin: auto;
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 header {
